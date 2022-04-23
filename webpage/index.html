@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="retro.css">
+</head>
+<script>
+
+const INVITADOS = {
+	"A": "PUDRITO e TURRUSQUITO",
+	"B": "PENDRIVE e MONGODB"
+};
+const urlParams = new URLSearchParams(window.location.search);
+
+function setInvitados() {
+	console.log(INVITADOS[urlParams.get("id")]);
+	document.getElementById('invitado').innerHTML = INVITADOS[urlParams.get("id")]
+}
+
+</script>
+<body onload="setInvitados()">
+
+<div class="crt">
+<marquee> BODA! BODA! BODA! BODA! BODA! BODA! BODA! BODA! BODA! BODA! BODA! BODA!</marquee>
+<br>
+<h3>Hola <span class="name" id="invitado"></span></h3>
+<p>Hola, casamos o dia 2022-08-20, na direccion balbalabla</p>
+<p>vente cuernos</p>
+<br>
+<h3>Calquera pregunta</h3>
+<p><span class="name">Pedro</span>: 644463553</p>
+<p><span class="name">Rosita</span>: 243545435</p>
+
+<marquee> BODA! BODA! BODA! BODA! BODA! BODA! BODA! BODA! BODA! BODA! BODA! BODA!</marquee>
+<br>
+</div>
+
+</html>
+
+

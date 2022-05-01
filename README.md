@@ -3,5 +3,5 @@
 ## Invitaciones
 - [x] Prototipo invitación (taza)
 - [] Material packaging  
-- [] Web invitacion
+- [X] Web invitacion
 - [] Produccion invitacions

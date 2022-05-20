@@ -1,9 +1,9 @@
 # Boda
 
 ## Invitaciones
-- [x] Prototipo invitación (taza)
+- [X] Prototipo invitación (taza)
 - [] Material packaging  
-- [] Web invitacion
+- [X] Web invitacion
 - [] Produccion invitacions
 
 ## Regalos 
@@ -11,9 +11,6 @@
  - 1 Variedade de café
  - 3 Tés: te negro, te verde e infusion (50g)
  - [Tenda alternativa](https://mistelanea.com/)
-
-## Traxe
-- [] Pedir traxe
 
 ## Falar cousas
 - [x] Lista definitiva invitados: Presente en el csv

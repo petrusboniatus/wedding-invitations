@@ -1,7 +1,3 @@
-// obfuscate guest list before pasting into HTML file
-// https://obfuscator.io/
-// make sure guest names are not readable
-
 const INVITADOS = {
 	"pk9fRL": "MARISA, MIGUEL e AMELIA",
 	"wCwP3E": "PAULO e DOLORES",
@@ -50,4 +46,4 @@ const INVITADOS = {
 	"Dy3fW3": "ABRAHAM",
 	"3HVbky": "SAMUEL",
 	"testtt": "TEST"
-};
+}

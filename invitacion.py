@@ -80,8 +80,12 @@ def generate_drink(link="random_link"):
 
 if __name__ == '__main__':
     urls = load_guests_urls() 
-    print(len(urls))
+    print(urls)
     print(urls[0])
-    scad_render_to_file(generate_drink(urls[0]), "drink.scad")
+    drinks = ()
+    for i in range(31, 41): 
+        drinks += translate([(i // 5) * 30, (i % 5) * 30, 0])(generate_drink(urls[i]))
+    
+    scad_render_to_file(drinks, "drinks-31-41.scad")
     scad_render_to_file(scale(1.5)(coffe_cup().cup), "cup.scad")
 

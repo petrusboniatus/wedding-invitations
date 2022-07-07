@@ -48,6 +48,6 @@ const INVITADOS = {
 	"u8Gd5T": "MARIA e LUCIANO",
 	"Yey3ZZ": "DINA e SANTI",
 	"Dy3fW3": "ABRAHAM",
-	"3HVbky": "SAMUEL",
+	"3HVbky": "SAMUEL e SILVIA",
 	"testtt": "TEST"
 };
